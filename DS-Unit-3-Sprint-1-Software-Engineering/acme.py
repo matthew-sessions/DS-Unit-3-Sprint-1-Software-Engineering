@@ -1,13 +1,13 @@
 import random
 
 class Product:
-    def __init__(self,name,price=10,weight=20,flammability=0.5):
+    def __init__(self, name, price=10, weight=20, flammability=0.5):
         """creates a new product"""
         self.name = name
         self.price = price
         self.weight = weight
         self.flammability = flammability
-        self.identifier = random.randint(1000000,10000000)
+        self.identifier = random.randint(1000000, 10000000)
 
     def stealability(self):
         """gets the change of it being stolen"""
@@ -32,8 +32,8 @@ class Product:
 
 class BoxingGlove(Product):
     """Override the product funtion"""
-    def __init__(self,name,weight=10):
-        super().__init__(name,weight=10)
+    def __init__(self, name, weight=10):
+        super().__init__(name, weight=10)
         self.weight = weight
 
     def explode(self):

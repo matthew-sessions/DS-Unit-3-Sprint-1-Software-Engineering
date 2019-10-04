@@ -13,9 +13,9 @@ def generate_products(num_products=30):
         adj = random.choice(ADJECTIVES)
         noun = random.choice(NOUNS)
         name = f"{adj} {noun}"
-        price = random.randint(5,100)
-        weight = random.randint(5,100)
-        flammability = random.uniform(0.0,2.5)
+        price = random.randint(5, 100)
+        weight = random.randint(5, 100)
+        flammability = random.uniform(0.0, 2.5)
         products.append(Product(name,price,weight,flammability))
     return(products)
 

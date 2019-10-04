@@ -13,12 +13,12 @@ class AcmeProductTests(unittest.TestCase):
     def test_different_vales(self):
         """test the product with change"""
         prod = Product('Test Product')
-        self.assertEqual(prod.stealability(),'Kinda stealable') #added for stea.
+        self.assertEqual(prod.stealability(), 'Kinda stealable') #added for stea.
         self.assertEqual(prod.explode(),'...boom!') #added for explode
         #setting up a test for different values
         prod = Product("test 2", price=15, weight=6)
-        self.assertEqual(prod.stealability(),'Very stealable!')
-        self.assertEqual(prod.explode(),'...fizzle')
+        self.assertEqual(prod.stealability(), 'Very stealable!')
+        self.assertEqual(prod.explode(), '...fizzle')
 
 class AcmeReportTests(unittest.TestCase):
     """test the report"""
