@@ -269,20 +269,20 @@ career here, you'll have to answer the following:
 
 Answer both of these questions (baseline ~5 sentences) here in text.
 
-# 1.Code review is important because you get a set of fresh eyes to look over
-#code. One important part of coding on a team is writing code that
-#is readable to others. Code review gives you an opportunity to see how
-#understandable your code is to others. I‌ also think code review is a good
-#mechanism for writing more efficient code. Often times there is a better
-#way to write something that you are not aware of. Have others provide
-#feedback about your code allows you to learn new things.
+1.Code review is important because you get a set of fresh eyes to look over
+code. One important part of coding on a team is writing code that
+is readable to others. Code review gives you an opportunity to see how
+understandable your code is to others. I‌ also think code review is a good
+mechanism for writing more efficient code. Often times there is a better
+way to write something that you are not aware of. Have others provide
+feedback about your code allows you to learn new things.
 
 
-#2 Containers are useful because they provide a cross-platform environment for
-#your program. It is a common problem that when you share your code with others
-#your application breaks due to differences in OS. They also allow you to easily
-# work through dependence by offering a file that contains the needed
-#dependencies.
+2 Containers are useful because they provide a cross-platform environment for
+your program. It is a common problem that when you share your code with others
+your application breaks due to differences in OS. They also allow you to easily
+ work through dependence by offering a file that contains the needed
+dependencies.
 
 ### Part 8 - Turn it in!
 
